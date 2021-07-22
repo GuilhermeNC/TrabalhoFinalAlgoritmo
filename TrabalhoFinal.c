@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//ATENÇão: Link do video no final do código e no final do relatório
+
 int ** alocaMatriz(int tam){//alocando ou reservando espaço de memória para o programa
   int ** matriz;
   matriz = (int **) calloc(tam, sizeof(int *));
@@ -111,3 +113,4 @@ int main(void) {
   liberaMemoria(matrizFixa, 3);//liberando espaço de memória
   liberaMemoria(matrizResultante, tamanhoResultante);//liberando espaço de memória
 }
+//Link: https://youtu.be/_aUaBF8tk6k
